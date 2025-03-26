@@ -73,3 +73,40 @@ button:hover {
 button:active {
   transform: scale(0.95);
 }
+
+/* ✅ Media Query for screens below 576px */
+@media (max-width: 576px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .num {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: -5%;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+}
